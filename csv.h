@@ -54,7 +54,7 @@ namespace io{
         //                                 LineReader                             //
         ////////////////////////////////////////////////////////////////////////////
 
-        namespace error{
+	namespace error{
                 struct base : std::exception{
                         virtual void format_error_message()const = 0;
 
